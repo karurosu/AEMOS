@@ -1,0 +1,38 @@
+Selection:
+Core: status(OS,WINDOWS),status(WINDOWS_VERSIONS,WINXP),status(SKU,SKU_2),status(BIOS,BIOS_I),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_3,PCI_LSI)
+Testcase: pci_alternate
+Testcase: boot_internal_windows_min
+Testcase: boot_internal_winxp
+{'runtime': 62, 'coverage': Fraction(58, 315)}
+Core: status(BIOS,BIOS_E),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: upgrade_bios
+{'runtime': 10, 'coverage': Fraction(5, 63)}
+Core: status(OS,LINUX),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_3),status(DISK_MODE,SAS),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI),status(PCI_SLOT_3,PCI_LSI),status(PCI_SLOT_4,PCI_LSI)
+Testcase: boot_internal_linux_max
+{'runtime': 10, 'coverage': Fraction(47, 630)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_MODE,NORMAL),status(OS,WINDOWS),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_external_windows8
+{'runtime': 20, 'coverage': Fraction(1, 18)}
+Core: status(OS,LINUX),status(BIOS,BIOS_E),status(PCI_SLOT_1,PCI_SSD),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_linux_ssd
+{'runtime': 20, 'coverage': Fraction(19, 315)}
+Core: status(BIOS,BIOS_E),status(DISK_MODE,SATA),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: external_sata
+{'runtime': 20, 'coverage': Fraction(4, 63)}
+Core: status(OS,WINDOWS),status(BIOS,BIOS_E),status(PCI_SLOT_1,PCI_SSD),status(WINDOWS_VERSIONS,WINXP),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_windows_ssd
+{'runtime': 20, 'coverage': Fraction(19, 315)}
+Core: status(OS,LINUX),status(BIOS,BIOS_E),status(PCI_SLOT_1,PCI_IGE),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_LSI)
+Testcase: test_pci_network
+{'runtime': 12, 'coverage': Fraction(19, 315)}
+Core: status(BIOS,BIOS_I),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: downgrade_bios
+{'runtime': 10, 'coverage': Fraction(5, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_MODE,SPARE),status(OS,LINUX),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_AMMOUNT,MID_MEM),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: linux_sparing
+{'runtime': 57, 'coverage': Fraction(79, 1260)}
+Core: status(SKU,SKU_1),status(BIOS,BIOS_M),status(PROCESSOR,SINGLE_PROC),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: minimal_boot
+Testcase: boot_mini
+Testcase: locks_test
+{'runtime': 40, 'coverage': Fraction(17, 105)}

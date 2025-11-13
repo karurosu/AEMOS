@@ -1,0 +1,498 @@
+Clustering done. Found 700 clusters
+Calculating larger selection
+Runtime: 14000
+Coverage 0.0634920634921
+
+Cluster verification (extra)
+
+>>> Optimiser:
+
+Saving log at /Users/karurosu/Documents/workspace/Aemos/src/test-auto-3200.csv
+Stopped after 1833 iterations
+Selection:
+Length 160
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN8_MID_MEM_DUAL_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN8_MINIMAL_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MINIMAL_MEM_DUAL_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MID_MEM_SINGLE_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN7_HIGH_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_MID_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,LINUX),status(SKU,SKU_4),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_HIGH_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MID_MEM_DUAL_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MID_MEM_SINGLE_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_HIGH_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MINIMAL_MEM_DUAL_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_MID_MEM_SINGLE_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MID_MEM_SINGLE_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,LINUX),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_HIGH_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MID_MEM_DUAL_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MID_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MID_MEM_SINGLE_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MID_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXSLES_MINIMAL_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MINIMAL_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXUBUNTU_MINIMAL_MEM_DUAL_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_MID_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WINXP_HIGH_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MINIMAL_MEM_DUAL_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MID_MEM_SINGLE_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_HIGH_MEM_DUAL_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MID_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_MID_MEM_SINGLE_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN7_HIGH_MEM_SINGLE_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MID_MEM_DUAL_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MID_MEM_SINGLE_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MID_MEM_DUAL_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MINIMAL_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MID_MEM_SINGLE_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MID_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN7_HIGH_MEM_SINGLE_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXSLES_MID_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXUBUNTU_MID_MEM_SINGLE_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MID_MEM_SINGLE_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN8_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MINIMAL_MEM_DUAL_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN8_MID_MEM_DUAL_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN8_MID_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MID_MEM_DUAL_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MID_MEM_SINGLE_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN7_HIGH_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_HIGH_MEM_SINGLE_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MID_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MID_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN7_HIGH_MEM_DUAL_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MID_MEM_SINGLE_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MID_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MID_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MINIMAL_MEM_DUAL_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MINIMAL_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN8_HIGH_MEM_DUAL_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MID_MEM_SINGLE_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_HIGH_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MID_MEM_SINGLE_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_MINIMAL_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WINXP_HIGH_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,LINUX),status(SKU,SKU_4),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_HIGH_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_HIGH_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WINXP_HIGH_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MID_MEM_SINGLE_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN8_MINIMAL_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MINIMAL_MEM_DUAL_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MINIMAL_MEM_DUAL_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN8_HIGH_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MINIMAL_MEM_DUAL_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MINIMAL_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_HIGH_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN8_HIGH_MEM_DUAL_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MID_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MID_MEM_SINGLE_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXSLES_MINIMAL_MEM_DUAL_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN8_MID_MEM_SINGLE_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MINIMAL_MEM_DUAL_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXUBUNTU_MID_MEM_SINGLE_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MINIMAL_MEM_DUAL_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN8_MID_MEM_SINGLE_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MINIMAL_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_MID_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MID_MEM_DUAL_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN8_MID_MEM_DUAL_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MID_MEM_SINGLE_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MINIMAL_MEM_DUAL_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MID_MEM_DUAL_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_MID_MEM_SINGLE_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN7_HIGH_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MID_MEM_DUAL_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN7_HIGH_MEM_DUAL_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MID_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_MID_MEM_DUAL_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MINIMAL_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_MINIMAL_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,LINUX),status(SKU,SKU_4),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: linux_boot_external_LINUXUBUNTU_HIGH_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN8_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXUBUNTU_MID_MEM_SINGLE_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_MINIMAL_MEM_DUAL_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN8_MINIMAL_MEM_DUAL_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MINIMAL_MEM_DUAL_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN7_HIGH_MEM_SINGLE_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXSLES_MINIMAL_MEM_DUAL_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXUBUNTU_MID_MEM_DUAL_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN8_HIGH_MEM_SINGLE_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXUBUNTU_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN8_MINIMAL_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MINIMAL_MEM_DUAL_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXUBUNTU_MID_MEM_DUAL_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXSLES_MID_MEM_DUAL_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN8_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MID_MEM_DUAL_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN7_MINIMAL_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXUBUNTU_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,LINUX),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_HIGH_MEM_SINGLE_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MID_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WINXP_HIGH_MEM_SINGLE_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_IGE),status(OS,LINUX),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_HIGH_MEM_SINGLE_PROC_SAS_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WINXP_MID_MEM_DUAL_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MID_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN8_HIGH_MEM_DUAL_PROC_SAS_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MID_MEM_DUAL_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_MID_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_MID_MEM_SINGLE_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN2000_MID_MEM_DUAL_PROC_SAS_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MID_MEM_SINGLE_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_SSD),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXSLES_MINIMAL_MEM_DUAL_PROC_SATA_PCI_SSD
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NONE),status(OS,WINDOWS),status(SKU,SKU_4),status(MEMORY_MODE,MIRROR),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_HIGH_MEM_DUAL_PROC_SATA_PCI_NONE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MID_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WINXP_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXRH9_MINIMAL_MEM_SINGLE_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN7_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_LSI),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_external_LINUXRH9_MINIMAL_MEM_SINGLE_PROC_SATA_PCI_LSI
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(LINUX_VERSIONS,LINUXSLES),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,LINUX),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: linux_boot_internal_LINUXSLES_MID_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN8_MINIMAL_MEM_DUAL_PROC_SATA_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SATA),status(PCI_SLOT_1,PCI_IGE),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_internal_WIN8_MID_MEM_SINGLE_PROC_SATA_PCI_IGE
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN2000),status(MEMORY_AMMOUNT,MID_MEM),status(PROCESSOR,DUAL_PROC),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_NVGFX),status(OS,WINDOWS),status(SKU,SKU_2),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_MODE,SPARE),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_3,PCI_NONE)
+Testcase: windows_boot_external_WIN2000_MID_MEM_DUAL_PROC_SAS_PCI_NVGFX
+{'runtime': 20, 'coverage': Fraction(1, 63)}
+
+real	7m31.981s
+user	6m33.553s
+sys	0m29.394s
+shinobu:src karurosu$

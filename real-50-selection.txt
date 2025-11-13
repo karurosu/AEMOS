@@ -1,0 +1,12 @@
+Core: status(BIOS,BIOS_E),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: upgrade_bios
+{'runtime': 10, 'coverage': Fraction(5, 63)}
+Core: status(OS,LINUX),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_3),status(DISK_MODE,SAS),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI),status(PCI_SLOT_3,PCI_LSI),status(PCI_SLOT_4,PCI_LSI)
+Testcase: boot_internal_linux_max
+{'runtime': 10, 'coverage': Fraction(47, 630)}
+Core: status(BIOS,BIOS_I),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: downgrade_bios
+{'runtime': 10, 'coverage': Fraction(5, 63)}
+Core: status(BIOS,BIOS_E),status(DISK_MODE,SATA),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: external_sata
+{'runtime': 20, 'coverage': Fraction(4, 63)}

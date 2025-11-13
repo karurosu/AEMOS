@@ -1,0 +1,210 @@
+Validating cluster
+Core: status(OS,WINDOWS),status(SKU,SKU_3),status(BIOS,BIOS_I),status(MEMORY_MODE,MIRROR),status(WINDOWS_VERSIONS,WIN8),status(PROCESSOR,DUAL_PROC),status(MEMORY_AMMOUNT,HIGH_MEM),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI),status(PCI_SLOT_3,PCI_LSI),status(PCI_SLOT_4,PCI_LSI)
+Testcase: full_boot
+Testcase: boot_internal_windows_max
+Testcase: pci_failover
+Testcase: internal_sas
+Testcase: pci_configuration
+Testcase: windows_mirroring
+Testcase: test_recoverable_error
+Testcase: usb3_test_windows
+Testcase: boot_internal_windows
+Testcase: test_fatal_error
+Testcase: recovery
+Testcase: boot_internal
+Testcase: test_setup_menu
+Runtime 916
+Coverage: 124/315
+
+Validating cluster
+Core: status(OS,LINUX),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_1),status(BIOS,BIOS_E),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: test_pci_linux
+Testcase: external_sas
+Testcase: boot_external_linux
+Testcase: device_locks
+Testcase: external_stress_linux
+Testcase: boot_external
+Runtime 309
+Coverage: 47/252
+
+Validating cluster
+Core: status(OS,WINDOWS),status(WINDOWS_VERSIONS,WINXP),status(SKU,SKU_2),status(BIOS,BIOS_I),status(PCI_SLOT_2,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_3,PCI_LSI)
+Testcase: pci_alternate
+Testcase: boot_internal_windows_min
+Testcase: boot_internal_winxp
+Runtime 62
+Coverage: 58/315
+
+Validating cluster
+Core: status(OS,WINDOWS),status(WINDOWS_VERSIONS,WINXP),status(SKU,SKU_4),status(BIOS,BIOS_E),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(MEMORY_MODE,NORMAL),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI),status(PCI_SLOT_3,PCI_LSI),status(PCI_SLOT_4,PCI_LSI)
+Testcase: boot_external_windows_max
+Testcase: test_pci_performance
+Testcase: boot_external_windows
+Testcase: safe_boot
+Testcase: memory_locks
+Testcase: external_stress_windows
+Runtime 369
+Coverage: 53/252
+
+Validating cluster
+Core: status(OS,WINDOWS),status(SKU,SKU_1),status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN7),status(PCI_SLOT_1,PCI_NVGFX),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_LSI)
+Testcase: external_windows7_graphics
+Testcase: boot_external_windows7
+Runtime 82
+Coverage: 1/18
+
+Validating cluster
+Core: status(OS,LINUX),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_1),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_internal_linux_min
+Testcase: boot_internal_sles
+Testcase: usb3_test_linux
+Testcase: boot_internal_linux
+Runtime 152
+Coverage: 76/315
+
+Validating cluster
+Core: status(OS,LINUX),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,HIGH_MEM),status(PROCESSOR,DUAL_PROC),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_3),status(DISK_MODE,SAS),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI),status(PCI_SLOT_3,PCI_LSI),status(PCI_SLOT_4,PCI_LSI)
+Testcase: boot_internal_linux_max
+Runtime 10
+Coverage: 47/630
+
+Validating cluster
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_MODE,NORMAL),status(OS,WINDOWS),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_external_windows8
+Runtime 20
+Coverage: 1/18
+
+Validating cluster
+Core: status(OS,LINUX),status(BIOS,BIOS_E),status(PCI_SLOT_1,PCI_SSD),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_linux_ssd
+Runtime 20
+Coverage: 19/315
+
+Validating cluster
+Core: status(BIOS,BIOS_E),status(DISK_MODE,SATA),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: external_sata
+Runtime 20
+Coverage: 4/63
+
+Validating cluster
+Core: status(SKU,SKU_1),status(LINUX_VERSIONS,LINUXUBUNTU),status(BIOS,BIOS_I),status(DISK_MODE,SATA),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI),status(OS,LINUX)
+Testcase: internal_sata
+Testcase: boot_internal_ubuntu
+Runtime 52
+Coverage: 13/126
+
+Validating cluster
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_MODE,MIRROR),status(OS,LINUX),status(SKU,SKU_3),status(PROCESSOR,DUAL_PROC),status(MEMORY_AMMOUNT,HIGH_MEM),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI),status(PCI_SLOT_3,PCI_LSI),status(PCI_SLOT_4,PCI_LSI)
+Testcase: linux_mirroring
+Runtime 75
+Coverage: 79/1260
+
+Validating cluster
+Core: status(OS,WINDOWS),status(BIOS,BIOS_E),status(PCI_SLOT_1,PCI_SSD),status(WINDOWS_VERSIONS,WINXP),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_windows_ssd
+Runtime 20
+Coverage: 19/315
+
+Validating cluster
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_MODE,NORMAL),status(OS,WINDOWS),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_internal_windows7
+Runtime 32
+Coverage: 1/18
+
+Validating cluster
+Core: status(SKU,SKU_1),status(BIOS,BIOS_M),status(PROCESSOR,SINGLE_PROC),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: minimal_boot
+Testcase: boot_mini
+Testcase: locks_test
+Runtime 40
+Coverage: 17/105
+
+Validating cluster
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_MODE,NORMAL),status(OS,WINDOWS),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_internal_windows8
+Runtime 34
+Coverage: 1/18
+
+Validating cluster
+Core: status(BIOS,BIOS_I),status(LINUX_VERSIONS,LINUXRH9),status(MEMORY_MODE,SPARE),status(OS,LINUX),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_AMMOUNT,MID_MEM),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: linux_sparing
+Runtime 57
+Coverage: 79/1260
+
+Validating cluster
+Core: status(OS,WINDOWS),status(BIOS,BIOS_I),status(MEMORY_MODE,SPARE),status(WINDOWS_VERSIONS,WIN8),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(MEMORY_AMMOUNT,MID_MEM),status(DISK_MODE,SAS),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: windows_sparing
+Runtime 55
+Coverage: 7/180
+
+Validating cluster
+Core: status(OS,LINUX),status(BIOS,BIOS_E),status(PCI_SLOT_1,PCI_IGE),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_2,PCI_LSI)
+Testcase: test_pci_network
+Runtime 12
+Coverage: 19/315
+
+Validating cluster
+Core: status(BIOS,BIOS_E),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: upgrade_bios
+Runtime 10
+Coverage: 5/63
+
+Validating cluster
+Core: status(BIOS,BIOS_I),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: downgrade_bios
+Runtime 10
+Coverage: 5/63
+
+Clustering done. Found 21 clusters
+Calculating larger selection
+Runtime: 2357
+Coverage 0.952380952381
+
+Cluster verification (extra)
+---------------------------
+Found 2 identical or compatible clusters
+Core: status(BIOS,BIOS_E),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: upgrade_bios
+Core: status(OS,LINUX),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_1),status(BIOS,BIOS_E),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(PROCESSOR,SINGLE_PROC),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: test_pci_linux
+Testcase: external_sas
+Testcase: boot_external_linux
+Testcase: device_locks
+Testcase: external_stress_linux
+Testcase: boot_external
+---------------------------
+
+---------------------------
+Found 2 identical or compatible clusters
+Core: status(BIOS,BIOS_E),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: upgrade_bios
+Core: status(BIOS,BIOS_E),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_MODE,NORMAL),status(OS,WINDOWS),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_external_windows8
+---------------------------
+
+---------------------------
+Found 2 identical or compatible clusters
+Core: status(BIOS,BIOS_I),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: downgrade_bios
+Core: status(OS,LINUX),status(LINUX_VERSIONS,LINUXSLES),status(SKU,SKU_1),status(BIOS,BIOS_I),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_internal_linux_min
+Testcase: boot_internal_sles
+Testcase: usb3_test_linux
+Testcase: boot_internal_linux
+---------------------------
+
+---------------------------
+Found 2 identical or compatible clusters
+Core: status(BIOS,BIOS_I),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: downgrade_bios
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN7),status(MEMORY_MODE,NORMAL),status(OS,WINDOWS),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_internal_windows7
+---------------------------
+
+---------------------------
+Found 2 identical or compatible clusters
+Core: status(BIOS,BIOS_I),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(MEMORY_MODE,NORMAL),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: downgrade_bios
+Core: status(BIOS,BIOS_I),status(WINDOWS_VERSIONS,WIN8),status(MEMORY_MODE,NORMAL),status(OS,WINDOWS),status(SKU,SKU_1),status(PROCESSOR,SINGLE_PROC),status(PCI_SLOT_3,PCI_NONE),status(PCI_SLOT_4,PCI_NONE),status(DISK_MODE,SAS),status(MEMORY_AMMOUNT,MINIMAL_MEM),status(PCI_SLOT_1,PCI_LSI),status(PCI_SLOT_2,PCI_LSI)
+Testcase: boot_internal_windows8
+---------------------------

@@ -1,0 +1,18 @@
+Selection:
+Core: status(DRIVER,DRIVER_V12),status(OS,WINDOWS),status(WINDOWS_VERSIONS,WINXP),status(BIOS,BIOSN_2)
+Testcase: test_driver_12
+Testcase: boot_windows_n2
+{'runtime': 25, 'coverage': Fraction(2, 3)}
+Core: status(OS,WINDOWS),status(WINDOWS_VERSIONS,WIN8),status(BIOS,BIOSN)
+Testcase: test_windows_clean
+Testcase: boot_windows
+{'runtime': 87, 'coverage': Fraction(2, 3)}
+Core: status(OS,WINDOWS),status(BIOS,BIOSN_1),status(WINDOWS_VERSIONS,WINXP)
+Testcase: boot_windows_n1
+{'runtime': 30, 'coverage': Fraction(7, 18)}
+Core: status(DRIVER,DRIVER_V12),status(OS,WINDOWS),status(BIOS,BIOSN_2),status(WINDOWS_VERSIONS,WINXP)
+Testcase: test_downgrade_bios
+{'runtime': 40, 'coverage': Fraction(1, 6)}
+Core: status(OS,WINDOWS),status(WINDOWS_VERSIONS,WIN8),status(BIOS,BIOSN)
+Testcase: test_complete_cleanup
+{'runtime': 90, 'coverage': Fraction(1, 3)}
